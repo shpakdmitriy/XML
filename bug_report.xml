@@ -1,1 +1,17 @@
-
+<?xml version="1.0" encoding="windows-1251"?>
+     <title>Switch the language inside the article</title>
+     <status>Opened</status>
+     <severity>Major</severity>
+     <priority>Middle</severity>
+     <preconditions>
+	<invironment>PC</invironment>
+	<OS>Windows 10</OS>
+        <browser>any browser</browser>
+     </preconditions>
+     <str name="Steps to reproduce">
+        <point01>1 open https://terrikon.com/</point01>
+	<point02>2 open any article for example https://terrikon.com/posts/402743</point02>
+	<point03>in the language panel switch the language en</point03>
+     </str>
+     <actualresult>return to the translated start page</actualresult>		
+     <expResult>all article text translates to english</expResult>
